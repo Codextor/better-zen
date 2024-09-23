@@ -9,6 +9,8 @@
 user_pref("browser.contentblocking.category", "strict");
 user_pref("browser.profiles.enabled", true);
 
+user_pref("content.notify.interval", 100000);
+
 user_pref("cookiebanners.service.mode", 1);
 user_pref("cookiebanners.service.mode.privateBrowsing", 1);
 
