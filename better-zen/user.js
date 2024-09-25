@@ -1,5 +1,5 @@
 // Better Zen Profile User Preferences
-// Tested with Zen version 1.0.1-a.4
+// Tested with Zen version 1.0.1-a.5
 
 // If you make changes to your preferences from about:config in the browser,
 // the changes will be overwritten by the below preferences on application restart.
