@@ -8,6 +8,7 @@
 
 user_pref("browser.contentblocking.category", "strict");
 user_pref("browser.profiles.enabled", true);
+user_pref("browser.tabs.tabmanager.enabled", false);
 
 user_pref("content.notify.interval", 100000);
 
