@@ -8,7 +8,7 @@ But there are a few differences, which are covered by Better Zen.
 Tested with Zen version [1.0.1-a.10](https://github.com/zen-browser/desktop/releases/tag/1.0.1-a.10)
 
 ## How to use Better Zen
-1. Download the Better Zen user.js file by clicking [`here`](https://github.com/Codextor/better-zen/raw/main/better-zen/user.js).
+1. Download the Better Zen user.js file from [`here`](https://github.com/Codextor/better-zen/raw/main/better-zen/user.js). (Right Click -> Save Link As...)
 2. Open a Zen Browser window. In the URL bar, type `about:profiles` and press **Enter**.  
 This will open the page for managing all browser profiles.
 3. Click on the `Create a New Profile` button to create a fresh profile.  
