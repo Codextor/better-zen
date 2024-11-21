@@ -1,5 +1,5 @@
 // Better Zen Profile User Preferences
-// Tested with Zen version 1.0.1-a.17
+// Tested with Zen version 1.0.1-a.18
 
 // If you make changes to your preferences from about:config in the browser,
 // the changes will be overwritten by the below preferences on application restart.
@@ -7,9 +7,10 @@
 // To make your changes persistent, set them below within the user.js file.
 
 user_pref("browser.contentblocking.category", "strict");
+user_pref("browser.download.start_downloads_in_tmp_dir", true);
+user_pref("browser.newtabpage.activity-stream.showWeather", false);
 user_pref("browser.profiles.enabled", true);
 user_pref("browser.sessionstore.interval", 60000);
-user_pref("browser.tabs.tabmanager.enabled", false);
 
 user_pref("captivedetect.canonicalURL", "");
 
@@ -28,8 +29,6 @@ user_pref("gfx.content.skia-font-cache-size", 20);
 
 user_pref("media.cache_readahead_limit", 7200);
 user_pref("media.memory_cache_max_size", 65536);
-user_pref("media.peerconnection.ice.default_address_only", true);
-user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true);
 
 user_pref("network.auth.subresource-http-auth-allow", 1);
 user_pref("network.captive-portal-service.enabled", false);

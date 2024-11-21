@@ -5,8 +5,8 @@ Inspired from the config tweaks [Betterfox](https://github.com/yokoffing/Betterf
 Zen's default preferences are already based on Betterfox (as mentioned [here](https://github.com/zen-browser/desktop?tab=readme-ov-file#third-party-code)).  
 But there are a few differences, which are covered by Better Zen.
 
-Tested with Zen version [1.0.1-a.17](https://github.com/zen-browser/desktop/releases/tag/1.0.1-a.17)
-Based on Betterfox version [129](https://github.com/yokoffing/Betterfox/releases/tag/129.0)
+Tested with Zen version [1.0.1-a.18](https://github.com/zen-browser/desktop/releases/tag/1.0.1-a.18)
+Based on Betterfox version [131](https://github.com/yokoffing/Betterfox/releases/tag/131.0)
 
 ## How to use Better Zen
 1. Download the Better Zen user.js file from [`here`](https://github.com/Codextor/better-zen/raw/main/better-zen/user.js). (Right Click -> Save Link As...)
