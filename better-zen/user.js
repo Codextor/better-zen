@@ -1,11 +1,12 @@
 // Better Zen Profile User Preferences
-// Tested with Zen version 1.0.1-a.22
+// Tested with Zen version 1.0.2-b.0
 
 // If you make changes to your preferences from about:config in the browser,
 // the changes will be overwritten by the below preferences on application restart.
 //
 // To make your changes persistent, set them below within the user.js file.
 
+user_pref("browser.cache.jsbc_compression_level", 3);
 user_pref("browser.contentblocking.category", "strict");
 user_pref("browser.download.start_downloads_in_tmp_dir", true);
 user_pref("browser.newtabpage.activity-stream.showWeather", false);
@@ -35,6 +36,9 @@ user_pref("network.captive-portal-service.enabled", false);
 user_pref("network.connectivity-service.enabled", false);
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.dns.disablePrefetchFromHTTPS", true);
+user_pref("network.http.max-connections", 1800);
+user_pref("network.http.max-persistent-connections-per-server", 10);
+user_pref("network.http.pacing.requests.enabled", false);
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 user_pref("network.predictor.enabled", false);
 user_pref("network.prefetch-next", false);
