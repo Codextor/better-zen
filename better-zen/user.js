@@ -1,5 +1,5 @@
 // Better Zen Profile User Preferences
-// Tested with Zen version 1.0.2-b.3
+// Tested with Zen version 1.0.2-b.4
 
 // If you make changes to your preferences from about:config in the browser,
 // the changes will be overwritten by the below preferences on application restart.
@@ -24,11 +24,10 @@ user_pref("content.notify.interval", 100000);
 user_pref("cookiebanners.service.mode", 1);
 user_pref("cookiebanners.service.mode.privateBrowsing", 1);
 
+user_pref("dom.enable_web_task_scheduling", true);
 user_pref("dom.security.https_first", true);
 
 user_pref("editor.truncate_user_pastes", false);
-
-user_pref("full-screen-api.warning.timeout", 0);
 
 user_pref("gfx.canvas.accelerated.cache-items", 4096);
 user_pref("gfx.canvas.accelerated.cache-size", 512);
