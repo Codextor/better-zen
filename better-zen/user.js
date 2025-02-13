@@ -1,5 +1,5 @@
 // Better Zen Profile User Preferences
-// Tested with Zen version 1.7b
+// Tested with Zen version 1.7.1b
 
 // If you make changes to your preferences from about:config in the browser,
 // the changes will be overwritten by the below preferences on application restart.
@@ -52,6 +52,8 @@ user_pref("network.ssl_tokens_cache_capacity", 10240);
 user_pref("permissions.default.desktop-notification", 2);
 user_pref("permissions.default.geo", 2);
 user_pref("permissions.manager.defaultsUrl", "");
+
+user_pref("privacy.history.custom", true);
 
 user_pref("security.OCSP.enabled", 0);
 user_pref("security.mixed_content.block_display_content", true);
