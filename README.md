@@ -5,7 +5,7 @@ Inspired from the config tweaks [Betterfox](https://github.com/yokoffing/Betterf
 Zen's default preferences are already based on Betterfox (as mentioned [here](https://github.com/zen-browser/desktop?tab=readme-ov-file#third-party-code)).  
 But there are a few differences, which are covered by Better Zen.
 
-Tested with Zen version [1.7.3b](https://github.com/zen-browser/desktop/releases/tag/1.7.3b)
+Tested with Zen version [1.7.4b](https://github.com/zen-browser/desktop/releases/tag/1.7.4b)
 Based on Betterfox version [133](https://github.com/yokoffing/Betterfox/releases/tag/133.0)
 
 ## How to use Better Zen
