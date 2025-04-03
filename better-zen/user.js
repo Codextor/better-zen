@@ -1,5 +1,5 @@
 // Better Zen Profile User Preferences
-// Tested with Zen version 1.10.3b
+// Tested with Zen version 1.11b
 
 // If you make changes to your preferences from about:config in the browser,
 // the changes will be overwritten by the below preferences on application restart.
@@ -166,10 +166,6 @@ user_pref("security.mixed_content.block_display_content", true);
 /* Zen value: 3
  * Enables CRLite in enforcing mode (2=enforce) - improves privacy and performance of certificate checks */
 user_pref("security.pki.crlite_mode", 2);
-
-/* Zen value: false
- * Enables downloading of CRLite filters - improve certificate revocation checks */
-user_pref("security.remote_settings.crlite_filters.enabled", true);
 
 
 /* Zen value: true
