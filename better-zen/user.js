@@ -1,5 +1,5 @@
 // Better Zen Profile User Preferences
-// Tested with Zen version 1.11b
+// Tested with Zen version 1.11.1b
 
 // If you make changes to your preferences from about:config in the browser,
 // the changes will be overwritten by the below preferences on application restart.
@@ -153,6 +153,11 @@ user_pref("permissions.default.geo", 2);
 /* Zen value: resource://app/defaults/permissions
  * Disables loading of default permissions URL - improves privacy */
 user_pref("permissions.manager.defaultsUrl", "");
+
+
+/* Zen value: false
+ * Enables custom history settings - allows for manual configuration of history retention settings */
+user_pref("privacy.history.custom", true);
 
 
 /* Zen value: 1
